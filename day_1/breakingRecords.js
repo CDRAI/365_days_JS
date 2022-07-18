@@ -1,3 +1,5 @@
+// keep track of how many times the minimum and maximum score is broken
+
 const recordsCounter = (arr) => {
   let minimumScore;
   let maximumScore;
