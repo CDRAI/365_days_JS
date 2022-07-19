@@ -1,13 +1,9 @@
-const runningSumFun = (arr)=>{
+const runningSumFun = (nums)=>{
     
- arr.forEach((num,index)=>{
-    if(index ===0)
-    return num
-    return  arr[index] += arr[index-1]
+    return nums.map((num,index)=>{
+        return nums.slice(0,index+1).reduce((acc,curr)=>acc+=curr,0)
 })
-return arr
 }
-
 
 const returnValue = runningSumFun([1,2,3,4])
 console.log(returnValue)
