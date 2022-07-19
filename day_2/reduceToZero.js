@@ -1,17 +1,39 @@
-const reduceToZeroFunc = (num) => {
-  let count = 0;
-  while (num > 0) {
-    count++;
-
-    if (num % 2 === 0) {
-      num = num / 2;
-      continue;
+const reduceToZeroFunc= (num)=>{
+    let count =0;
+    while(num>0){
+      count++
+      // & logical bit wise operator where 1 is the bitmask
+        if(!(num & 1))
+        // right shift operation
+        num>>=1
+        else
+        num--
     }
-    num--;
-  }
-  return count;
-};
+    
+    return count
+}
 
-const returnValue = reduceToZeroFunc(14);
+
+
+
+
+
+
+
+// const reduceToZeroFunc = (num) => {
+//   let count = 0;
+//   while (num > 0) {
+//     count++;
+
+//     if (num % 2 === 0) {
+//       num = num / 2;
+//       continue;
+//     }
+//     num--;
+//   }
+//   return count;
+// };
+
+const returnValue = reduceToZeroFunc(123);
 
 console.log(returnValue);
