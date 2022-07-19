@@ -23,6 +23,6 @@ const recordsCounter = (arr) => {
   return [brokeMaximumScore, brokeMinimumScore];
 };
 
-const returnValue = recordsCounter([3, 4, 21, 36, 10, 28, 35, 5, 24, 42,20]);
+const returnValue = recordsCounter([3, 4, 21, 36,22,10, 28, 35, 5, 24, 42,20]);
 
 console.log(returnValue);
