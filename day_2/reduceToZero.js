@@ -1,3 +1,7 @@
+// Time complexity = O(logn)
+// Space complexity = O(1)
+
+
 const reduceToZeroFunc= (num)=>{
     let count =0;
     while(num>0){
@@ -12,13 +16,6 @@ const reduceToZeroFunc= (num)=>{
     
     return count
 }
-
-
-
-
-
-
-
 
 // const reduceToZeroFunc = (num) => {
 //   let count = 0;
