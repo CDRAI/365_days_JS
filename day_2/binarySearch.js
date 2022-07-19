@@ -1,5 +1,7 @@
 // implementation of binary search using recursion
 
+// this algorithm has time complexity of O(logn)
+
 let arr = [1, 3, 5, 8, 10, 13, 16, 20, 22, 26, 33 ,45 ,62 ,67, 75 ,80];
 let startIndex = 0;
 let endIndex = arr.length - 1;
