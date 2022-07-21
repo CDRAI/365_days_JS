@@ -1,3 +1,6 @@
+
+// this has time complexity of O(nlogn)
+
 const mergeSortFunc = (arr) => {
   if (arr.length < 2) {
     return arr;
