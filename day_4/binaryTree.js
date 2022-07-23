@@ -1,3 +1,5 @@
+// depth first travesal in a binary tree
+
 class Node {
   constructor(val) {
     this.val = val;
