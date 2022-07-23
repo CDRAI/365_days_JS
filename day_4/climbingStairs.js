@@ -1,6 +1,6 @@
 // solving using recursion 
 
-
+// using recursion takes to much time
 
 const climbingStairsFunc = (n) => {
   if (n == 1) return 1;
